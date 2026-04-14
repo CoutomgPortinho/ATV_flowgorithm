@@ -6,14 +6,14 @@ Este repositório contém a resolução de uma lista de exercícios focada em l�
 #  Objetivo
 Praticar a construção de algoritmos sequenciais e com estruturas de decisão (condicionais), reforçando conceitos de entrada, processamento e saída de dados.
 
-📝 Como usar
+ ## 📝 Como usar
 Faça o download e instale o Flowgorithm.
 
 Abra os arquivos com a extensão .fprg para visualizar e rodar os fluxogramas.
 
 Insira os dados solicitados no console para testar a lógica.
 
-🛠️ Ferramenta Utilizada
+## 🛠️ Ferramenta Utilizada
 Flowgorithm: Para a criação e execução dos fluxogramas.
 
 Pseudocódigo: Para a estruturação lógica antes da implementação.
