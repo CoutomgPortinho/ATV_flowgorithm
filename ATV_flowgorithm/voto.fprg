@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:32:56 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg0OzIwMjYtMDQtMTQ7IjA4OjAxOjUzICI7Mjg2MQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg0OzIwMjYtMDQtMTQ7IjA4OjMyOjU2ICI7MTsyOTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <output expression="&quot;Vamos ver se voc&#234; tem idade para votar ou se o voto &#233; opcional&quot;" newline="True"/>
+            <output expression="&quot;Informe a sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade&gt;=71">
+                <then>
+                    <output expression="(&quot;Sua idade &#233; &quot; &amp; idade &amp; &quot; o seu voto &#233; opcional&quot;)" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade &gt;=18">
+                        <then>
+                            <output expression="(&quot;Sua idade &#233;&quot; &amp; idade &amp; &quot;o seu voto &#233; obrigatorio&quot;)" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade&gt;=16">
+                                <then>
+                                    <output expression="(&quot;Sua idade &#233;&quot; &amp; idade &amp; &quot; seu voto &#233; opcional&quot;)" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="(&quot;Sua idade &#233;&quot; &amp; idade &amp; &quot; voc&#234; n&#227;o pode votar&quot;)" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

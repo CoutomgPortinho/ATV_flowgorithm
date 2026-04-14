@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:43:55 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg0OzIwMjYtMDQtMTM7IjExOjE4OjU2ICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg0OzIwMjYtMDQtMTM7IjAxOjQzOjU1ICI7MTsyOTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeroUm, numeroDois, numeroTres, soma" type="Real" array="False" size=""/>
+            <output expression="&quot;vamos fazer a soma de tr&#234;s n&#250;meros&quot;" newline="True"/>
+            <output expression="&quot;Digite o primeiro n&#250;mero para a soma&quot;" newline="True"/>
+            <input variable="numeroUm"/>
+            <output expression="&quot;Digite o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="numeroDois"/>
+            <output expression="&quot;Adicione o terceiro n&#250;mero&quot;" newline="True"/>
+            <input variable="numeroTres"/>
+            <assign variable="soma" expression="numeroUm + numeroDois + numeroTres"/>
+            <output expression="(&quot;O resultado da conta foi&quot; &amp; soma)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
